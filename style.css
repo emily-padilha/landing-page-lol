@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(65.73% 118.66% at 67.99% 73.19%, rgba(222, 135, 227, 0.7) 9.38%, rgba(173, 101, 219, 0.7) 29.17%, rgba(145, 56, 199, 0.7) 46.88%, rgba(68, 11, 113, 0.7) 67.19%, rgba(44, 1, 60, 0.7) 94.27%);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    height: 100px;
+}
+
+.logo-lol{
+    padding-left: 10px;
+}
+
+.button-play{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    border: 2px solid white;
+
+    font-family: 'Poppins', sans-serif; 
+    font-size: 24px;
+}
+
+.initial-page{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.first-written-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    line-height: 90px;
+}
+
+.name{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 124px;
+    font-weight: 700;
+}
+
+.phrase{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    border-bottom: 3px solid white;
+}
+
+.description{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 20px;
+    padding-top: 12px;
+
+    font-family: 'Poppins', sans-serif;    
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.second-written-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.second-title{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.second-description{
+    color: #E3D343;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.function-icon{
+    width: 61px;
+    height: 45px;
+}
+
+.dificult-icon{
+    height: 18px;
+}
+
+.all-habilities{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 20px;
+    gap: 35px
+}
+
+.written-habilities{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #E3D343;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    gap: 50px;
+}
+
+
+.q{
+    padding-left:2px ;
+}
+
+.w{
+    padding-left: 28px;
+}
+
+.e{
+    padding-left: 30px;
+}
+
+.r{
+    padding-left: 40px;
+}
+
+.qiyana-img{
+    display: flex;
+    height: 686px;
+    padding-left: 44px;
+    padding-top: 50px;
+}
+
